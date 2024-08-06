@@ -1,0 +1,26 @@
+{
+    "1" : {
+        "name" : "Cnarizard Funko POP",
+        "cost" : 450,
+        "order" : 1.1,
+        "img" : "Cnarizard Funko POP.jpg"
+    },
+    "2" : {
+        "name" : "Charizard",
+        "cost" : 500,
+        "order" : 2.1,
+        "img" : "Charizard.jpg"
+    },
+    "3" : {
+        "name" : "Птахозавр",
+        "cost" : 450,
+        "order" : 3.1,
+        "img" : "Птахозавр.jpg"
+    },
+    "4" : {
+        "name" : "Великий Гекозілла",
+        "cost" : 500,
+        "order" : 4.1,
+        "img" : "Великий Гекозілла.jpg"
+    }
+}

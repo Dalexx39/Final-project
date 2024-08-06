@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Pangolin&display=swap');
+body {
+    background-color: cadetblue;
+}
+
+.header-block {
+    background-color: darkslategrey;
+    width: 1610px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: -50px;
+}
+
+.navbar-menu {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.navbar-menu > a {
+    font-family: Comfortaa;
+    display: inline-block;
+    color: #FFF;;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.663px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.navbar-menu > a:not(:last-child) {
+    margin-right: 200px;
+}
+
+.navbar-menu > a:hover {
+    color: #383938;
+}
+
+.name-size {
+    font-size: 50px;
+    font-family: Pangolin;
+    color: #c0c0c0;
+    text-align: center;
+}
+
+.cart-img {
+    width: 40px;
+    height: 40px;
+}
+
+.cart {
+    width: 250px;
+    height: 400px;
+    border: 5px solid rgba(170, 156, 156, 0.281);
+    margin: 50px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(96, 127, 173);
+    border-radius: 30px;
+}
+
+.cart .name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: beige;
+    font-family: Comfortaa;
+}
+
+.cart .cost {
+    font-size: 1.3rem;
+    margin: 15px;
+    font-family: Comfortaa;
+}
+
+.cart img {
+    border: 10px solid #3839384d;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.cart .add-to-cart {
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cart .add-to-cart:hover {
+    background: #c0c0c0;
+}
+
+.cart .add-to-cart:active {
+    background: red;
+}
+
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-cart img {
+    width: 100px;
+}
+
+.footer {
+    margin-top: 90px;
+    padding: 3px;
+    background-color: #383938;
+}
+.contacts li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.contacts li {
+    font-size: 25px;
+}
+
+.contacts-li {
+    color: #c0c0c0;
+}
+
+.information-li {
+    color: #c0c0c0;
+}
+
+.services-li {
+    color: #c0c0c0;
+}
+
+.contacts li a:hover {
+    transition: 0.5s;
+    color: cadetblue;
+}
+.copyright {
+    font-size: 25px;
+    margin-left: 45px;
+    color: #c0c0c0;
+    margin-top: 50px;
+}
+.contacts {
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+.information li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.information li {
+    font-size: 25px;
+}
+.information {
+    margin-left: 700px;
+    margin-top: -100px;
+}
+.information li a:hover {
+    transition: 0.5s;
+    color: cadetblue;
+}
+.services li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.services li {
+    font-size: 25px;
+}
+.services {
+    margin-left: 400px;
+    margin-top: -130px;
+}
+.services li a:hover {
+    transition: 0.5s;
+    color: cadetblue;
+}
